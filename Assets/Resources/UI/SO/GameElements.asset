@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: GameElements
   m_EditorClassIdentifier: 
   globalCanvasPrefab: {fileID: 6795078353630966417, guid: bd49e2e25af5442a49fb63628e1a2e0c, type: 3}
+  VROriginSet: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
   servicesPrefab: {fileID: 7497442479629002566, guid: c92010f84e0ca4a8fb0f43095dd04604, type: 3}
   gameService: {fileID: 4011092048593120400, guid: 46ab8bdd698ad4c259a467418fb83417, type: 3}
   audioService: {fileID: 1589721190095796978, guid: f890faddb0ae2412d9bce4736846b6d8, type: 3}

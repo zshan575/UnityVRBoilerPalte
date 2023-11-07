@@ -7,5 +7,6 @@ public class MainSceneInstaller : MonoInstaller<MainSceneInstaller>
     {
         MainSceneElements mainSceneElements = Resources.Load<MainSceneElements>("UI/SO/MainSceneElements");
         Container.Bind<MainSceneElements>().FromInstance(mainSceneElements);
+   
     }
 }

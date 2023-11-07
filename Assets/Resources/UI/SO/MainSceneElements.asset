@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: MainSceneElements
   m_EditorClassIdentifier: 
   mainSceneCanvasPrefab: {fileID: 6795078353630966417, guid: bd49e2e25af5442a49fb63628e1a2e0c, type: 3}
-  homeScreen: {fileID: 4623369086073574629, guid: dab11514f85834e9dad390d11b7a29d5, type: 3}
-  gameplayManager: {fileID: 2905702408404196289, guid: e7475c57e95674743aeca0529b720667, type: 3}
+  VROriginSet: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2, type: 3}

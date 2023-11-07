@@ -31,7 +31,12 @@ public class Services : SingletonMonobehaviour<Services>
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
-
+    public void CameraUpdateAssign()
+    {
+        Canvas.renderMode = RenderMode.WorldSpace;
+        Canvas.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(-10f, 0f,20f);
+        Canvas.worldCamera = Camera.main;
+    }
     private void Update()
     {
         if (clearPrefs)

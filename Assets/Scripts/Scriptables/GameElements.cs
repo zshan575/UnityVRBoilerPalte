@@ -8,6 +8,8 @@ public class GameElements : ScriptableObject
 {
     [Header("Canvas")]
     public Canvas globalCanvasPrefab;
+    [Header("VR Setup")]
+    public GameObject VROriginSet;
 
     [Header("Services")]
     public Services servicesPrefab;

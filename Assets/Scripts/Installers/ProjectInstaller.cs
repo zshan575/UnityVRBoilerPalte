@@ -46,6 +46,7 @@ public class ProjectInstaller : MonoInstaller<ProjectInstaller>
 
         //Ui Bindings
         Container.Bind<Canvas>().FromComponentInNewPrefab(gameElements.globalCanvasPrefab).AsSingle().NonLazy();
+        Container.Bind<Transform>().FromComponentInNewPrefab(gameElements.VROriginSet).AsSingle().NonLazy();
         Container.BindInterfacesAndSelfTo<UiOrganizer>().AsSingle();
 
         //Ui Screens

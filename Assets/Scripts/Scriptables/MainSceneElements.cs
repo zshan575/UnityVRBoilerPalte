@@ -8,4 +8,5 @@ public class MainSceneElements : ScriptableObject
 {
     [Header("Canvas")]
     public Canvas mainSceneCanvasPrefab;
+
 }

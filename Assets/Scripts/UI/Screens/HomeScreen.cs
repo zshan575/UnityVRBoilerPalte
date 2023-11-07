@@ -21,7 +21,11 @@ public class HomeScreen : GameMonoBehaviour
         settingsButton.onClick.AsObservable().Subscribe(x => OnClickSettingsButton());
         testButton.onClick.AsObservable().Subscribe(x => Test());
     }
-
+    //private void OnEnable()
+    ////{
+    ////    Services.instance.CameraUpdateAssign();
+    ////    Debug.Log("enable is work");
+    //}
     private void Start()
     {
         Services.PlayerService._player.playerName.AsObservable().SubscribeToText(usernameText);
@@ -43,8 +47,8 @@ public class HomeScreen : GameMonoBehaviour
 
     private void OnClickPlayButton()
     {
-        Services.UIService.CommonPopup.OpenPopup("Game Mode", "Please select game mode to start game.",
-            "Singleplayer", "Multiplayer", OnClickSinglePlayerButton, OnClickMultiplePlayerButton);
+        Services.UIService.CommonPopup.OpenPopup("VR Game Mode", "Please select game mode to start game.",
+            "Simple", "Demo", OnClickSinglePlayerButton, OnClickMultiplePlayerButton);
         Services.AudioService.PlayUIClick();
     }
 
